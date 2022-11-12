@@ -40,3 +40,6 @@ logs/scheduler/2022-11-10/native_dags/example_dags/tutorial.py.log
 logs/scheduler/2022-11-10/native_dags/example_dags/plugins/workday.py.log
 logs/scheduler/2022-11-10/native_dags/example_dags/subdags/subdag.py.log
 logs/scheduler/2022-11-12/first_dag.py.log
+logs/scheduler/2022-11-12/python_operator.py.log
+logs/scheduler/2022-11-12/task_dag.py.log
+logs/scheduler/2022-11-12/xcom_dag.py.log

@@ -154,3 +154,10 @@ SyntaxError: positional argument follows keyword argument
 [2022-11-12T06:37:01.368+0000] {logging_mixin.py:117} INFO - [2022-11-12T06:37:01.367+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-11-12T06:37:01.735+0000] {logging_mixin.py:117} INFO - [2022-11-12T06:37:01.735+0000] {dag.py:3328} INFO - Setting next_dagrun for task_dag to None, run_after=None
 [2022-11-12T06:37:02.141+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/task_dag.py took 1.869 seconds
+[2022-11-12T06:37:33.337+0000] {processor.py:156} INFO - Started process (PID=4996) to work on /opt/airflow/dags/task_dag.py
+[2022-11-12T06:37:33.353+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/task_dag.py for tasks to queue
+[2022-11-12T06:37:33.369+0000] {logging_mixin.py:117} INFO - [2022-11-12T06:37:33.369+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/task_dag.py
+[2022-11-12T06:37:33.635+0000] {processor.py:768} INFO - DAG(s) dict_keys(['task_dag']) retrieved from /opt/airflow/dags/task_dag.py
+[2022-11-12T06:37:34.077+0000] {logging_mixin.py:117} INFO - [2022-11-12T06:37:34.077+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-12T06:37:34.414+0000] {logging_mixin.py:117} INFO - [2022-11-12T06:37:34.414+0000] {dag.py:3328} INFO - Setting next_dagrun for task_dag to None, run_after=None
+[2022-11-12T06:37:34.582+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/task_dag.py took 1.314 seconds
