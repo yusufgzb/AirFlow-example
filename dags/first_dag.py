@@ -9,20 +9,14 @@ with DAG(
     start_date=pendulum.datetime(2022,11,11, tz="UTC")
 ) as dag:
 
-    extract = BashOperator(
-        task_id='extract',
-        bash_command='echo helloworld'
+    task1= BashOperator(
+        task_id='task1',
+        bash_command='echo hello world'
     )
 
-    transform = BashOperator(
-        task_id='transform',
+    task2 = BashOperator(
+        task_id='task2',
         bash_command='sleep 3'
     )
 
-    load = BashOperator(
-        task_id='load',
-        bash_command='sleep 10'
-    )
-
-    extract >> transform >> load
-
+    task1 >> task2 #Önce task1 sonra task2 çalışacak

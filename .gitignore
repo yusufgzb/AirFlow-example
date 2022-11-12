@@ -1,1 +1,5 @@
 logs/
+logs/scheduler/2022-11-12/python_operator.py.log
+logs/scheduler/2022-11-12/task_dag.py.log
+logs/scheduler/2022-11-12/xcom_dag.py.log
+.gitignore

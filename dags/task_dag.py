@@ -1,6 +1,3 @@
-from airflow import DAG
-from airflow.operators.bash import BashOperator
-from airflow.operators.python_operator import PythonOperator
 from datetime import datetime,timedelta
 from airflow.decorators import dag, task
 
