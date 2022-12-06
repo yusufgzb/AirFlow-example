@@ -4,11 +4,11 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 import pendulum
 
-
+#Tarih Zaman ayrlı
 with DAG(
     dag_id='cron_dag',
     start_date=pendulum.datetime(2022,11,11, tz="UTC"),
-    schedule_interval="0 3 * * Tue,Sat"
+    schedule_interval="0 3 * * Tue,Sat"#Tarih Zaman ayrlı
 ) as dag:
 
     extract = BashOperator(

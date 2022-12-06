@@ -16,12 +16,9 @@ def greet2(age,ti):
 
 
 with DAG(
-    dag_id='xcom_dag',
-    schedule=None,
-    start_date=pendulum.datetime(2022,11,11, tz="UTC")
+    dag_id='xcom_dag',schedule=None,start_date=pendulum.datetime(2022,11,11, tz="UTC")
     ) as dag:
    
-
     xcom_task3 = PythonOperator(
         task_id='xcom_task3', 
         python_callable=get_name2

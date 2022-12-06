@@ -1,0 +1,9 @@
+file_names:
+  - "a.txt"
+  - "b.txt"
+
+
+file_path: "include/files"
+
+
+file_extension: "txt"
