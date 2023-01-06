@@ -26,7 +26,7 @@ aşağıdaki adresten giriş yapabilriz
 
 GCP VM makineye Kurulum
 
-Yeni VM makine oluştur(18.04 LTS Pro Server)
+Yeni VM makine oluştur(22.04 LTS Pro Server)
 
 Install Docker
 
