@@ -24,9 +24,14 @@ aşağıdaki adresten giriş yapabilriz
 
 0.0.0.0:8080
 
+-----------
+
 GCP VM makineye Kurulum
 
 Yeni VM makine oluştur(22.04 LTS Pro Server)
+  
+  Ram > 4 Gb
+  Disk > 15 Gb
 
 Install Docker
 
